@@ -27,7 +27,7 @@ This project was originally completed in Python and Tableau Public and you can s
 ![Equities Price Analysis: Annual Historical Stock Market Price Returns, Adjusted for Dividends](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/assets/stock-financial-analysis-7.png)
 
 ## Equities Price Analysis: Returns of Top Performers
-![Equities Price Analysis: Returns of Top Performers](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/assets/stock-financial-analysis-18.png)
+![Equities Price Analysis: Returns of Top Performers](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/assets/stock-financial-analysis-8.png)
 
 ## Equities Price Analysis: Ranked Returns of Top Performers
 ![Equities Price Analysis: Ranked Returns of Top Performers](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/assets/stock-financial-analysis-9.png)
@@ -38,8 +38,8 @@ This project was originally completed in Python and Tableau Public and you can s
 ## Fundamental Equities Analysis: Top Performers
 ![Fundamental Equities Analysis: Top Performers](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/assets/stock-financial-analysis-11.png)
 
-## About the Project
-![About the Project](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/assets/stock-financial-analysis-12.png)
+## Weighted Ranking of Returns, Risks and Fundamentals
+![Weighted Ranking of Returns, Risks and Fundamentals](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/assets/stock-financial-analysis-12.png)
 
 ## Conclusion and Recommendation
 ![Conclusion and Recommendation](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/assets/stock-financial-analysis-13.png)
