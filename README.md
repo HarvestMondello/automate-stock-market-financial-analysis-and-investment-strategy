@@ -5,6 +5,10 @@
 This project was originally completed in Python and Tableau Public and you can see my Tableau work here: 
 <a href="https://public.tableau.com/app/profile/harvest.mondello/viz/Capstone2StocksAnalysisFinal/0_CoverPage"> Harvest Mondello's Tableau Public</a> And my Python code will be added to Github in the near future.
 
+In this analysis I will look at risk, prices and financials of the largest 500 US publicly traded stocks and compare them to the market as a whole. I will look at historical risk, historical price changes adjusted for re-invested dividends and current fundamentals from the companies financial statements.
+
+I will then create a ranking system to balance risk, returns and fundamental sustainability as a criteria for which stocks to invest in today. My Python code can be run at any time and the visuals updated to select the best stocks to invest in on any given day.
+
 ## Cover Page
 ![Cover Page](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/assets/stock-financial-analysis-1.png)
 
@@ -15,6 +19,7 @@ This project was originally completed in Python and Tableau Public and you can s
 ![Structured Approach of the Analysis and Solution](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/assets/stock-financial-analysis-3.png)
 
 ## Risk Analysis: Inflation and Risk Free Returns
+For risk analysis I looked at the 30 most recent years of data. 
 ![Risk Analysis: Inflation and Risk Free Returns](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/assets/stock-financial-analysis-4.png)
 
 ## Risk Analysis: Systematic and Unsystematic Risk
@@ -24,6 +29,7 @@ This project was originally completed in Python and Tableau Public and you can s
 ![Risk Analysis: Standard Deviation as Volatility Risk](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/assets/stock-financial-analysis-6.png)
 
 ## Equities Price Analysis: Historical Stock Market Price & Dividend Returns 
+For price analysis I looked at the 30 most recent years of data.
 ![Equities Price Analysis: Annual Historical Stock Market Price Returns, Adjusted for Dividends](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/assets/stock-financial-analysis-7.png)
 
 ## Equities Price Analysis: Returns of Top Performers
@@ -36,9 +42,11 @@ This project was originally completed in Python and Tableau Public and you can s
 ![Fundamental Equities Analysis: Overview](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/assets/stock-financial-analysis-10.png)
 
 ## Fundamental Equities Analysis: Top Performers
+To get the best view of a companies current financials, I looked at current fundamentals instead of historical. 
 ![Fundamental Equities Analysis: Top Performers](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/assets/stock-financial-analysis-11.png)
 
 ## Weighted Ranking of Returns, Risks and Fundamentals
+For the most relevant ranking I used data the 10 most recent years of data.
 ![Weighted Ranking of Returns, Risks and Fundamentals](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/assets/stock-financial-analysis-12.png)
 
 ## Conclusion and Recommendation
