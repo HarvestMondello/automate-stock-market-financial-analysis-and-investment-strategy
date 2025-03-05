@@ -12,13 +12,13 @@ I will then create a ranking system to balance risk, returns and fundamental sus
 ## Tools I used
 In this project, I utilized a variety of tools to conduct my analysis:
 
-Tableau: To run final analysis and visualize.
-Python in VS Code: to write the code to pull the data, clean the data and conduct exploratory data analysis.
-Visual Studio Code (VS Code): This open-source administration and development platform helped me manage my Python code. 
-Gitub and Git: To share my analysis, visualizations and code
-ChatGPT: Used for routine formating tasks to be more efficient.
-Python Libraries: multiple python libraries for manipulation of data, visualization and api. 
-Python API: yfinance API to import historical stock data
+- **Tableau** To run final analysis and visualize.
+- **Python** in VS Code: to write the code to pull the data, clean the data and conduct exploratory data analysis.
+- **Visual Studio Code (VS Code)**: This open-source administration and development platform helped me manage my Python code. 
+- **Gitub and Git**: To share my analysis, visualizations and code
+- **ChatGPT** Used for routine formating tasks to be more efficient.
+- **Python Libraries** multiple python libraries for manipulation of data, visualization and api. 
+- **Python API** yfinance API to import historical stock data
 
 
 ## Cover Page
