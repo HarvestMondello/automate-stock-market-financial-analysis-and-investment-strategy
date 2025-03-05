@@ -1,4 +1,4 @@
-# Automated Stock Market Financial Analysis and Investment Strategy   in Python & Tableau
+# Automated Stock Market Financial Analysis and Investment Strategy in Python & Tableau
 
 ## Introduction
 
@@ -56,10 +56,9 @@ For the most relevant ranking I used data the 10 most recent years of data.
 For this analysis I combined, cleaned up and conducted a preliminary exploratory analysis in Python and then conducted a financial analyzed, used a weighted ranked system and visualized in Tableau. 
 
 The Data for this project came from three sources:
-1. Historical data going back to 1962 came from Ralhil Parikh on kaggle: <a href="https://www.kaggle.com/datasets/0f304bbe024f01fc9cbc0117d9a6dc6767935789b73b0794f541f7e60af0cf62"> Kaggle dataset</a>
-
-2. Historical data going back 10 years: came from the Yahoo Finance API.
-3. Fundamental data: came from Google Finance.
+1. Historical data going back top 1962 comes from the open source yfiance API which pulls from Yahoo Finance.
+2. Fundamental data came from Google Finance.
+3. Inflation data comes from statbureau.org
 
 My Python code can be run at any time and the visuals updated to select the best stocks to invest in on any given day.
 
