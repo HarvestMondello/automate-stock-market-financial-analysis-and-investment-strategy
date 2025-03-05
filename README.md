@@ -9,6 +9,18 @@ In this analysis I will look at risk, prices and financials of the largest 500 U
 
 I will then create a ranking system to balance risk, returns and fundamental sustainability as a criteria for which stocks to invest in today. My Python code can be run at any time and the visuals updated to select the best stocks to invest in on any given day.
 
+## Tools I used
+In this project, I utilized a variety of tools to conduct my analysis:
+
+Tableau: To run final analysis and visualize.
+Python in VS Code: to write the code to pull the data, clean the data and conduct exploratory data analysis.
+Visual Studio Code (VS Code): This open-source administration and development platform helped me manage my Python code. 
+Gitub and Git: To share my analysis, visualizations and code
+ChatGPT: Used for routine formating tasks to be more efficient.
+Python Libraries: multiple python libraries for manipulation of data, visualization and api. 
+Python API: yfinance API to import historical stock data
+
+
 ## Cover Page
 ![Cover Page](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/assets/stock-financial-analysis-1.png)
 
