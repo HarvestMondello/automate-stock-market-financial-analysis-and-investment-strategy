@@ -14,7 +14,7 @@
 
 This project was originally completed in Python and Tableau Public and you can see my Tableau work here: 
 <a href="https://public.tableau.com/app/profile/harvest.mondello/viz/Capstone2StocksAnalysisFinal/0_CoverPage"> Harvest Mondello's Tableau Public</a> And my Python code will be added to Github in the near future.
-See the Python code here: [queries folder](/notebooks/)
+See the Python code here: [notebooks folder](/notebooks/)
 
 In this analysis I will look at risk, prices and financials of the largest 500 US publicly traded stocks and compare them to the market as a whole. I will look at historical risk, historical price changes adjusted for re-invested dividends and current fundamentals from the companies financial statements.
 
