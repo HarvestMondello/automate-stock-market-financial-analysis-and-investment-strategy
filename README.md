@@ -14,6 +14,7 @@
 
 This project was originally completed in Python and Tableau Public and you can see my Tableau work here: 
 <a href="https://public.tableau.com/app/profile/harvest.mondello/viz/Capstone2StocksAnalysisFinal/0_CoverPage"> Harvest Mondello's Tableau Public</a> And my Python code will be added to Github in the near future.
+See the Python code here: [queries folder](/notebooks/)
 
 In this analysis I will look at risk, prices and financials of the largest 500 US publicly traded stocks and compare them to the market as a whole. I will look at historical risk, historical price changes adjusted for re-invested dividends and current fundamentals from the companies financial statements.
 
@@ -76,6 +77,23 @@ For the most relevant ranking I used data the 10 most recent years of data.
 
 # About the Project
 For this analysis I combined, cleaned up and conducted a preliminary exploratory analysis in Python and then conducted a financial analyzed, used a weighted ranked system and visualized in Tableau. 
+
+Some select Python code, the rest is in the Python folder
+
+```python
+#get price data from yfinance, status bar is nice
+
+#create today variable
+Today = datetime.now().strftime("%Y-%m-%d")
+print(Today)
+
+# Download Close prices and Dividends, 1962-current
+df = yf.download(ticker_list, period="max", start="1962-01-01", end=Today, actions=True) #auto_adjust=True is the default for Close, ie Close+Dividends
+# df_prices = yf.download(ticker_list, period="max", start="2025-3-07", end=Today, actions=True)
+
+print("SP500 ticker list has been stored with current price data and dividends to df.")
+print(df.columns.levels)
+```
 
 The Data for this project came from three sources:
 1. Historical data going back top 1962 comes from the open source yfiance API which pulls from Yahoo Finance.
