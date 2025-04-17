@@ -1,0 +1,7 @@
+# Ignore Jupyter Notebooks for language stats
+*.ipynb linguist-documentation
+
+# (Optional) Mark data files as generated
+*.csv linguist-generated
+*.json linguist-generated
+*.xlsx linguist-generated
