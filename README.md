@@ -12,7 +12,7 @@
 
 # Introduction
 
-This project was originally completed in Python and Tableau Public and you can see my Tableau work here: 
+This project was originally completed in Python and Tableau Public and you can see my Tableau work here: 🔗
 <a href="https://public.tableau.com/app/profile/harvest.mondello/viz/Capstone2StocksAnalysisFinal/0_CoverPage"> Harvest Mondello's Tableau Public</a> And my Python code will be added to Github in the near future.
 See the Python code here: [notebooks folder](/notebooks/)
 
@@ -101,6 +101,11 @@ The Data for this project came from three sources:
 3. Inflation data comes from statbureau.org
 
 My Python code can be run at any time and the visuals updated to select the best stocks to invest in on any given day.
+
+### 📝 License
+
+You're welcome to use this project for **personal** or **educational** purposes! Feel free to explore, adapt, and learn from the code and visuals. Just note that **commercial use isn’t permitted** without permission. See [LICENSE.md](./LICENSE.md) for full details and contact info.
+
 
 
 
