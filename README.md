@@ -104,7 +104,7 @@ My Python code can be run at any time and the visuals updated to select the best
 
 ### License
 
-You're welcome to use this project for **personal** or **educational** purposes! Feel free to explore, adapt, and learn from the code and visuals. Just note that **commercial use isn’t permitted** without permission. See [LICENSE.md](./LICENSE.md) for full details and contact info.
+You're welcome to use this project for **personal** or **educational** purposes! Feel free to explore, adapt, and learn from the code and visuals. Just note that **commercial use isn’t permitted** without permission. See [LICENSE.md](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/LICENSE.MD) for full details and contact info.) for full details and contact info.
 
 
 
