@@ -20,6 +20,20 @@ In this analysis I will look at risk, prices and financials of the largest 500 U
 
 I will then create a ranking system to balance risk, returns and fundamental sustainability as a criteria for which stocks to invest in today. My Python code can be run at any time and the visuals updated to select the best stocks to invest in on any given day.
 
+## Table of Contents
+
+- [Synopsis](#synopsis)
+- [Introduction](#introduction)
+- [Background](#background)
+- [Tools I Used](#tools-i-used)
+- [How I Built It](#how-i-built-it)
+- [The Analysis](#the-analysis)
+- [Conclusion & Recommendation](#conclusion-and-recommendation)
+- [License](#license)
+
+# Background
+The Standard and Poors 500 (S&P500) are the largest publicly traded companies in the United States. My dataset has financial data going back to 1962 for companies that were listed on S&P500 at that time. 
+
 # Tools I used
 In this project, I utilized a variety of tools to conduct my analysis:
 
@@ -31,6 +45,34 @@ In this project, I utilized a variety of tools to conduct my analysis:
 - **Python Libraries** multiple python libraries for manipulation of data, visualization and api. 
 - **Python API** yfinance API to import historical stock data
 
+# How I Built It
+For this analysis I combined, cleaned up and conducted a preliminary exploratory analysis in Python and then conducted a financial analyzed, used a weighted ranked system and visualized in Tableau. 
+
+Some select Python code, the rest is in the Python folder
+
+```python
+#get price data from yfinance, status bar is nice
+
+#create today variable
+Today = datetime.now().strftime("%Y-%m-%d")
+print(Today)
+
+# Download Close prices and Dividends, 1962-current
+df = yf.download(ticker_list, period="max", start="1962-01-01", end=Today, actions=True) #auto_adjust=True is the default for Close, ie Close+Dividends
+# df_prices = yf.download(ticker_list, period="max", start="2025-3-07", end=Today, actions=True)
+
+print("SP500 ticker list has been stored with current price data and dividends to df.")
+print(df.columns.levels)
+```
+
+The Data for this project came from three sources:
+1. Historical data going back top 1962 comes from the open source yfiance API which pulls from Yahoo Finance.
+2. Fundamental data came from Google Finance.
+3. Inflation data comes from statbureau.org
+
+My Python code can be run at any time and the visuals updated to select the best stocks to invest in on any given day.
+
+# The Analysis
 
 # Cover Page
 ![Cover Page](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/assets/stock-financial-analysis-1.png)
@@ -74,33 +116,6 @@ For the most relevant ranking I used data the 10 most recent years of data.
 
 # Conclusion and Recommendation
 ![Conclusion and Recommendation](https://github.com/HarvestMondello/automate-stock-market-financial-analysis-and-investment-strategy/blob/main/assets/stock-financial-analysis-13.png)
-
-# About the Project
-For this analysis I combined, cleaned up and conducted a preliminary exploratory analysis in Python and then conducted a financial analyzed, used a weighted ranked system and visualized in Tableau. 
-
-Some select Python code, the rest is in the Python folder
-
-```python
-#get price data from yfinance, status bar is nice
-
-#create today variable
-Today = datetime.now().strftime("%Y-%m-%d")
-print(Today)
-
-# Download Close prices and Dividends, 1962-current
-df = yf.download(ticker_list, period="max", start="1962-01-01", end=Today, actions=True) #auto_adjust=True is the default for Close, ie Close+Dividends
-# df_prices = yf.download(ticker_list, period="max", start="2025-3-07", end=Today, actions=True)
-
-print("SP500 ticker list has been stored with current price data and dividends to df.")
-print(df.columns.levels)
-```
-
-The Data for this project came from three sources:
-1. Historical data going back top 1962 comes from the open source yfiance API which pulls from Yahoo Finance.
-2. Fundamental data came from Google Finance.
-3. Inflation data comes from statbureau.org
-
-My Python code can be run at any time and the visuals updated to select the best stocks to invest in on any given day.
 
 ### License
 
