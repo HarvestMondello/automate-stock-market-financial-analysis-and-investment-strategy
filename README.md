@@ -42,8 +42,13 @@ In this project, I utilized a variety of tools to conduct my analysis:
 - **Visual Studio Code (VS Code)**: This open-source administration and development platform helped me manage my Python code. 
 - **Gitub and Git**: To share my analysis, visualizations and code
 - **ChatGPT** Used for routine formating tasks to be more efficient.
-- **Python Libraries** multiple python libraries for manipulation of data, visualization and api. 
-- **Python API** yfinance API to import historical stock data
+- **Python Libraries** For manipulation of data, visualization and an API (Application Programming Interface) for historical financial data. 
+
+    Standard Libraries I used:  `datetime` `glob` `os` `time`
+
+    Third party libraries and modules I used:  `numpy` `matplotlib.pyplot` `pandas` `seaborn`
+
+- **Python API** `yfinance` API to import historical stock data from Yahoo Finance.
 
 # The Analysis
 
